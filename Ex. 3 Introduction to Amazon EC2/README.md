@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Sahana Harshini K
+* **Register Number**: 212223060236
+* **Date of Submission**: 17-03-2026
 
 ---
 
@@ -95,34 +95,85 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 ---
 
 ## Workflow (Student Explanation)
+Steps Followed
 
-(Write the steps you followed in your own words)
+## **Step 1**: Launch EC2 Instance
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+Created a new EC2 instance named Web Server
 
+Selected region: N. Virginia
+
+Chose Amazon Linux 2023 AMI
+
+Selected instance type: t2.micro
+
+## **Step 2**: Configure Instance
+
+Enabled:
+
+Termination protection
+
+Stop protection
+
+Created and attached a Security Group
+
+Added user data script to:
+
+Install Apache
+
+Start web server
+
+## **Step 3**: Monitor Instance
+
+Checked instance status using:
+
+Status checks
+
+CloudWatch metrics
+
+System logs
+
+Ensured the instance was running properly
+
+## **Step 4**: Enable Web Access
+
+Updated Security Group to allow:
+
+HTTP (Port 80)
+
+Opened browser and accessed:
+
+Web server using public IP
+
+## **Step 5**: Modify and Manage Instance
+
+Changed instance type to t2.small
+
+Increased EBS storage size
+
+Checked EC2 service quotas
+
+Tested stop protection
+
+Finally, stopped the instance
 ---
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
-
+<img width="1920" height="1080" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/c17e04fc-28c0-4cc6-803a-46c0d0e9d4c1" />
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/59323949-120a-4751-ad23-478a194a357a" />
 
 ---
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1600" height="696" alt="image" src="https://github.com/user-attachments/assets/d8cf71c9-8e0b-4700-b68d-aceb1e6a7d5a" />
 
 ---
 
