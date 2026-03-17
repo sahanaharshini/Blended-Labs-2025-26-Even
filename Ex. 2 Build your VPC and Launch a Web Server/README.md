@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Sahana Harshini K
+* **Register Number**: 212223060236
+* **Date of Submission**: 17-03-2026
 
 ---
 
@@ -85,33 +85,102 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+## **Step 1**: Login
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+Open AWS Management Console
 
+Select region: N. Virginia (us-east-1)
+
+Login to your account
+
+## **Step 2**: Create VPC
+
+Go to VPC service
+
+Create a custom VPC
+
+Add:
+
+Public subnet
+
+Private subnet
+
+Attach:
+
+Internet Gateway (IG) → for internet access
+
+NAT Gateway → for private subnet internet access
+
+## **Step 3**: Add More Subnets
+
+Create extra subnets in another Availability Zone
+
+Update route tables:
+
+Public subnet → internet access
+
+Private subnet → NAT gateway access
+
+## **Step 4**: Create Security Group
+
+Create a Security Group
+
+Name: Web Security Group
+
+Allow:
+
+HTTP (Port 80)
+
+Source: Anywhere (0.0.0.0/0)
+
+## **Step 5**: Launch EC2 Instance
+
+Go to EC2 service
+
+Launch instance in public subnet
+
+Enable:
+
+Auto-assign public IP
+
+Attach:
+
+Security group
+
+Key pair
+
+## **Step 6**: Setup Web Server
+
+Add user data script:
+
+Install Apache
+
+Deploy web app
+
+Open browser and enter:
+
+Public DNS of EC2
+
+Verify the website is working
 ---
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+<img width="1598" height="696" alt="image" src="https://github.com/user-attachments/assets/669d03b9-311c-427e-a4a9-3e932acec85b" />
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="1595" height="711" alt="image" src="https://github.com/user-attachments/assets/2d0e5fdc-df6d-447e-a496-faa2e92f37a5" />
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+<img width="1600" height="809" alt="image" src="https://github.com/user-attachments/assets/49dfefbc-7285-4e33-af4e-d5b58a357a97" />
 
 ---
 
