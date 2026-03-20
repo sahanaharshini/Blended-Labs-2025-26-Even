@@ -3,7 +3,9 @@
 ## Title
 
 Scale and Load Balance Your Architecture
-Author : your name   Reg no : yours   Date :
+**Author** : Sahana Harshini K   
+**Reg no** : 212223060236
+**Date** : 20-3-26
 
 ---
 
