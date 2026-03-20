@@ -1,5 +1,4 @@
-<img width="1600" height="803" alt="image" src="https://github.com/user-attachments/assets/f0f74ead-9cf8-401e-b400-af49e4a20204" /># Lab 5 – Build a Database Server (AWS)
-
+## Lab 5 – Build a Database Server (AWS)
 ## Author
 
 * **Name**:Sahana Harshini K
