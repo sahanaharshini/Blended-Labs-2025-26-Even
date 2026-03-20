@@ -72,9 +72,17 @@ Describe step-by-step how you performed this experiment in your own words.
 
 ## Output Screenshots 
 
+## Created LoadBalancer
+<img width="1920" height="1080" alt="Screenshot (89)" src="https://github.com/user-attachments/assets/6db63a73-c0e7-4c1e-b9b7-19df86a42afb" />
+
+## Created LabConfig
+
+<img width="1920" height="1080" alt="Screenshot (91)" src="https://github.com/user-attachments/assets/8241e138-247d-43c9-8100-efea57a2535a" />
+
+## Dynamic Scaling Policy created
+<img width="1920" height="1080" alt="Screenshot (92)" src="https://github.com/user-attachments/assets/7d923a41-f7c9-4126-aa43-27bc89bbba59" />
 
 ---
-
 
 ## Result
 
