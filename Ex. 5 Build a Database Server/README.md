@@ -1,11 +1,10 @@
-# Lab 5 – Build a Database Server (AWS)
+<img width="1600" height="803" alt="image" src="https://github.com/user-attachments/assets/f0f74ead-9cf8-401e-b400-af49e4a20204" /># Lab 5 – Build a Database Server (AWS)
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
-
+* **Name**:Sahana Harshini K
+* **Register Number**: 212223060236
+* **Date of Submission**: 20-3-2026
 ---
 
 ## Objective
@@ -84,31 +83,26 @@ Test the database server by connecting to it locally or remotely and performing 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
+1.First, a security group named DB Security Group was created to allow the web server to connect to the database using port 3306 (MySQL). 2.A DB Subnet Group was created with subnets from two Availability Zones to allow the database to run in a Multi-AZ environment for high availability. 3.A MySQL RDS instance named lab-db was created with the database name lab, username main, and password lab-password. 4.The database was associated with the DB Security Group and the Lab VPC so that the web server can securely connect to the database. 5.The web application running on the EC2 server was opened using its IP address, and the RDS endpoint, database name, username, and password were entered to interact with the database.
 ---
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1600" height="803" alt="image" src="https://github.com/user-attachments/assets/2d19e6fb-645c-4a56-b9a0-154cffbce584" />
 
 ---
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="1600" height="817" alt="image" src="https://github.com/user-attachments/assets/18ed2a58-1eea-4bd7-bb37-f99b8c75fd40" />
 
 ---
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1600" height="949" alt="image" src="https://github.com/user-attachments/assets/7942328d-6d3e-40dd-9d02-27c4eb558518" />
 
 ---
 
